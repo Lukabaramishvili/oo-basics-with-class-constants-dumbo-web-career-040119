@@ -15,7 +15,7 @@ class Shoe
   
   def condition=(condition)
     @condition = condition
-    BRANDS <<
+    BRANDS << condition
   end 
 
 end
